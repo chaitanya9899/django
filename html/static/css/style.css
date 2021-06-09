@@ -1,0 +1,78 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.first-sec {
+	height: 40px;
+	background-color: black;
+	padding-top: 20px;
+}
+.first-sec a {
+	padding-top: 10px;
+	color: red;
+	margin-left: 150px;
+	text-decoration: none;
+}
+.first-sec a:hover {
+	background-color: #FFF;
+	padding: 10px 10px 10px 10px;
+}
+/*------------------------------------------------------*/
+.sec-sec {
+}
+.login {
+	background: url(img2.jfif) no-repeat;
+	background-size: cover;
+	height: 100%;
+	position: absolute;
+	width: 1007px;
+	height: 399px;
+}
+.login h1 {
+	color: #fff;
+	text-shadow: 0 0 10px rgba(0,0,0,0.3);
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: 100px;
+}
+input {
+	width: 50%;
+	margin-bottom: 10px;
+	background: rgba(0,0,0,0.3);
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+	margin-left: 250px;
+	margin-top: 15px;
+}
+input:focus {
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2);
+}
+/*===============================================*/
+.footer {
+	background-color: #000;
+	padding-left: 800px;
+	height: 430px;
+	padding-top: 10px
+}
+.footer i {
+	font-size: 21px;
+	color: #fff;
+	margin-top: 400px;
+	padding-left: 15px;
+}
